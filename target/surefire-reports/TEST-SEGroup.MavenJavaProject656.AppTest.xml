@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="SEGroup.MavenJavaProject656.AppTest" time="0.009" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="SEGroup.MavenJavaProject656.AppTest" time="0.019" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\vanga\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\vanga\AppData\Local\Temp\surefire4803939890110100579\surefirebooter4752030582987331088.jar C:\Users\vanga\AppData\Local\Temp\surefire4803939890110100579 2022-11-19T10-52-46_355-jvmRun1 surefire579724596828424793tmp surefire_015058147201097241701tmp"/>
+    <property name="sun.java.command" value="C:\Users\vanga\AppData\Local\Temp\surefire2573107501377987996\surefirebooter16183963643238502901.jar C:\Users\vanga\AppData\Local\Temp\surefire2573107501377987996 2022-12-06T21-46-24_439-jvmRun1 surefire7888112675775323102tmp surefire_0609538869927560322tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\vanga\eclipse-workspace\MavenJavaProject656\target\test-classes;C:\Users\vanga\eclipse-workspace\MavenJavaProject656\target\classes;C:\Users\vanga\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\vanga\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\vanga\AppData\Local\Temp\surefire4803939890110100579\surefirebooter4752030582987331088.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\vanga\AppData\Local\Temp\surefire2573107501377987996\surefirebooter16183963643238502901.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.4.1+1"/>
@@ -51,12 +51,12 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\vanga\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/vanga/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257/jre/bin/server;C:/Users/vanga/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-19\bin;C:\Program Files\PuTTY\;C:\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Docker\Docker\resources\bin;C:\apache-tomcat-9.0.68\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\vanga\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\vanga\AppData\Local\Programs\Python\Python310\;C:\Users\vanga\AppData\Local\Microsoft\WindowsApps;C:\Users\vanga\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vanga\AppData\Roaming\npm;C:\MinGW\bin;C:\Users\vanga\AppData\Local\GitHubDesktop\bin;C:\Windows\System32;;."/>
+    <property name="java.library.path" value="C:\Users\vanga\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/vanga/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.1.v20220515-1614/jre/bin/server;C:/Users/vanga/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.1.v20220515-1614/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-19\bin;C:\Program Files\PuTTY\;C:\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Docker\Docker\resources\bin;C:\apache-tomcat-9.0.68\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\vanga\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\vanga\AppData\Local\Programs\Python\Python311\;C:\Users\vanga\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\vanga\AppData\Local\Programs\Python\Python310\;C:\Users\vanga\AppData\Local\Microsoft\WindowsApps;C:\Users\vanga\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vanga\AppData\Roaming\npm;C:\MinGW\bin;C:\Users\vanga\AppData\Local\GitHubDesktop\bin;C:\apache-maven-3.8.6;C:\Program Files\Java\jdk-17.0.5\bin;;C:\Windows\System32;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Eclipse Adoptium"/>
     <property name="java.vm.version" value="17.0.4.1+1"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="SEGroup.MavenJavaProject656.AppTest" time="0.003"/>
+  <testcase name="shouldAnswerWithTrue" classname="SEGroup.MavenJavaProject656.AppTest" time="0.008"/>
 </testsuite>
